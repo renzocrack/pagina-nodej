@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+   <%- include('partials/header.html')%>
+</head>
+<body>
+
+<!-- NAVEGATION -->
+    <%- include('partials/navegacion.html') %>
+<!-- fin navegation -->
+
+<!-- MAIN CONTENT -->
+    <div class="container">
+        <header class="row">
+            <div class="col md-12 text-center">
+                <img src="img/pews-logo.png" alt="" class="animate__animated animate__bounceIn">
+            </div>
+
+        </header>
+    </div>
+<!-- fin main content -->
+
+<!-- BANNER -->
+<div class="container-fluid">
+    <div class="row bg-dark text-white p-5 text-center" id="banner">
+        <div class="col-md-6 text-center">
+            <i class="fab fa-youtube fa-10x"></i>
+        </div>
+        <div class="col-md-6 text-center">
+            <h3>SUSCRIBETE A MI CANAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet minima animi libero ducimus aperiam eligendi laboriosam expedita, praesentium minus earum odio consequatur ratione blanditiis error ipsa laudantium molestiae ipsum? Quibusdam!</p>
+    
+        </div>
+    </div>
+</div>
+<!-- fin banner -->
+
+<!-- FOOTER -->
+<%- include('partials/footer.html')%>
+
+</body>
+</html>
